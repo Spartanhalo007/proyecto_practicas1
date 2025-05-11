@@ -1,0 +1,38 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_NUMER.DBF
+Nº registros de datos:  201     
+Última actualización:   1923/07/06
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  NUM_CODIGO      Numérico                4                             No
+    2  NUM_CONCEP      Carácter               80                             No
+    3  NUM_INEGRE      Numérico                1                             No
+    4  NUM_FORM1       Numérico                1                             No
+    5  NUM_FORM2       Numérico                1                             No
+    6  NUM_FORM3       Numérico                1                             No
+    7  NUM_DEST01      Numérico                2                             No
+    8  NUM_DEST02      Numérico                2                             No
+    9  NUM_DEST03      Numérico                2                             No
+   10  NUM_DEST04      Numérico                2                             No
+   11  NUM_DEST05      Numérico                2                             No
+   12  NUM_DEST06      Numérico                2                             No
+   13  NUM_DEST07      Numérico                2                             No
+   14  NUM_DEST08      Numérico                2                             No
+   15  NUM_DEST09      Numérico                2                             No
+   16  NUM_DEST10      Numérico                2                             No
+   17  NUM_DEST11      Numérico                2                             No
+   18  NUM_DEST12      Numérico                2                             No
+   19  NUM_DEST13      Numérico                2                             No
+   20  NUM_IC_IE       Numérico                1                             No
+   21  NUM_ACCION      Carácter                1                             No
+   22  NUM_RECE01      Carácter                2                             No
+   23  NUM_RECE02      Carácter                2                             No
+   24  NUM_INVE01      Carácter                2                             No
+   25  NUM_INVE02      Carácter                2                             No
+   26  NUM_INVE03      Carácter                2                             No
+   27  NUM_INVE04      Carácter                2                             No
+   28  NUM_INVE05      Carácter                2                             No
+   29  NUM_INVE06      Carácter                2                             No
+   30  NUM_INVE07      Carácter                2                             No
+   31  NUM_DIAN        Numérico                1                             No
+** Total **                                  136

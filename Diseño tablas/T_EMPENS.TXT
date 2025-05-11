@@ -1,0 +1,22 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_EMPENS.DBF
+Nº registros de datos:  6       
+Última actualización:   1919/11/14
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  PEN_NIT         Numérico               12                             No
+    2  PEN_DV          Numérico                1                             No
+    3  PEN_NOMBRE      Carácter               35                             No
+    4  PEN_CODIGO      Carácter                2                             No
+    5  PEN_CUENTA      Numérico               12                             No
+    6  PEN_DIRECC      Carácter               35                             No
+    7  PEN_COCIU       Numérico                5                             No
+    8  PEN_CIUDAD      Carácter               35                             No
+    9  PEN_COPAIS      Carácter                2                             No
+   10  PEN_PAIS        Carácter               35                             No
+   11  PEN_TELEF       Numérico               20                             No
+   12  PEN_OFICOD      Numérico                4                             No
+   13  PEN_OFINOM      Carácter               35                             No
+   14  PEN_MEN_US      Numérico                5      2                      No
+   15  PEN_PORIVA      Numérico                5      2                      No
+** Total **                                  244

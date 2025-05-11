@@ -1,0 +1,12 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_ADMINI.DBF
+Nº registros de datos:  2       
+Última actualización:   1919/02/19
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  AD_NIT_ENT      Numérico               12            Asc   SPANISH    No
+    2  AD_NOM_ENT      Carácter               35                             No
+    3  AD_NIT_PRI      Numérico               12                             No
+    4  AD_NOM_PRI      Carácter               35                             No
+    5  AD_FECHA        Fecha                   8                             No
+** Total **                                  103

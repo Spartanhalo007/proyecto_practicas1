@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_CAUDEV.DBF
+Nº registros de datos:  17      
+Última actualización:   1919/07/08
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  DEV_CODIGO      Numérico                4                             No
+    2  DEV_CONCEP      Carácter               50                             No
+** Total **                                   55

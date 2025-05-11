@@ -1,0 +1,10 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_PATEC.DBF
+Nº registros de datos:  211     
+Última actualización:   1922/06/15
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  PT_FECHA        Numérico                6                             No
+    2  PT_VLR_USD      Numérico               16      2                      No
+    3  PT_CON_USD      Numérico               16      2                      No
+** Total **                                   39

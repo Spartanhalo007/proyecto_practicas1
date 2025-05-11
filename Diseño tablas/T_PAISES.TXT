@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_PAISES.DBF
+Nº registros de datos:  245     
+Última actualización:   1923/10/02
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  PAI_CODIGO      Carácter                2            Asc   Machine    No
+    2  PAI_NOMBRE      Carácter               60                             No
+** Total **                                   63

@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_ACREDE.DBF
+Nº registros de datos:  6       
+Última actualización:   1923/08/03
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  AD_CODIGO       Numérico                2                             No
+    2  AD_NOMBRE       Carácter              100                             No
+** Total **                                  103

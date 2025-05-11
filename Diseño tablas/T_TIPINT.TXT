@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_TIPINT.DBF
+Nº registros de datos:  11      
+Última actualización:   1908/06/26
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  TIPINT_COD      Numérico                2                             No
+    2  TIPINT_NOM      Carácter               40                             No
+** Total **                                   43

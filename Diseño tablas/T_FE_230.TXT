@@ -1,0 +1,14 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_FE_230.DBF
+Nº registros de datos:  1365    
+Última actualización:   1922/07/07
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  FE_DIA_PRO      Fecha                   8                             No
+    2  FE_DIA_01       Fecha                   8                             No
+    3  FE_NRO_01       Numérico                1                             No
+    4  FE_DIA_02       Fecha                   8                             No
+    5  FE_NRO_02       Numérico                1                             No
+    6  FE_DIA_03       Fecha                   8                             No
+    7  FE_NRO_03       Numérico                1                             No
+** Total **                                   36

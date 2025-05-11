@@ -1,0 +1,10 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_EQUICA.DBF
+Nº registros de datos:  66      
+Última actualización:   1908/06/26
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  EQUI_BANCO      Carácter               10                             No
+    2  EQUI_CATAS      Carácter               10                             No
+    3  EQUI_CONCE      Carácter               40                             No
+** Total **                                   61

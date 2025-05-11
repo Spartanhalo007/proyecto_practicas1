@@ -1,0 +1,11 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_CORABA.DBF
+Nº registros de datos:  9334    
+Última actualización:   1919/11/28
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  ABA_CODIGO      Numérico                9                             No
+    2  ABA_NOMBRE      Carácter               40                             No
+    3  ABA_ESTADO      Carácter                2                             No
+    4  ABA_CIUDAD      Carácter               25                             No
+** Total **                                   77

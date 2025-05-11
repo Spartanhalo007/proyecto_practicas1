@@ -1,0 +1,41 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_PUC.DBF
+Nº registros de datos:  411     
+Última actualización:   1922/11/23
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  PUC_CUENTA      Numérico               10                             No
+    2  PUC_CUENT       Numérico               10                             No
+    3  PUC_NOMBRE      Carácter               40                             No
+    4  PUC_NATURA      Carácter                1                             No
+    5  PUC_01          Numérico                1                             No
+    6  PUC_02          Numérico                1                             No
+    7  PUC_03          Numérico                1                             No
+    8  PUC_04          Numérico                1                             No
+    9  PUC_05          Numérico                1                             No
+   10  PUC_06          Numérico                1                             No
+   11  PUC_07          Numérico                1                             No
+   12  PUC_08          Numérico                1                             No
+   13  PUC_09          Numérico                1                             No
+   14  PUC_10          Numérico                1                             No
+   15  PUC_11          Numérico                1                             No
+   16  PUC_12          Numérico                1                             No
+   17  PUC_13          Numérico                1                             No
+   18  PUC_14          Numérico                1                             No
+   19  PUC_15          Numérico                1                             No
+   20  PUC_16          Numérico                1                             No
+   21  PUC_17          Numérico                1                             No
+   22  PUC_18          Numérico                1                             No
+   23  PUC_19          Numérico                1                             No
+   24  PUC_20          Numérico                1                             No
+   25  PUC_21          Numérico                1                             No
+   26  PUC_22          Numérico                1                             No
+   27  PUC_23          Numérico                1                             No
+   28  PUC_24          Numérico                1                             No
+   29  PUC_25          Numérico                1                             No
+   30  PUC_26          Numérico                1                             No
+   31  PUC_27          Numérico                1                             No
+   32  PUC_28          Numérico                1                             No
+   33  PUC_29          Numérico                1                             No
+   34  PUC_30          Numérico                1                             No
+** Total **                                   92

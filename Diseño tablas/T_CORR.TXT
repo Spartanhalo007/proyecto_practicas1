@@ -1,0 +1,19 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_CORR.DBF
+Nº registros de datos:  3       
+Última actualización:   1919/11/12
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  COR_COD         Numérico                4                             No
+    2  COR_SWIFT       Carácter               11                             No
+    3  COR_MDA         Carácter                3                             No
+    4  COR_NOMB        Carácter               35                             No
+    5  COR_DIR         Carácter               35                             No
+    6  COR_CIUD        Carácter               35                             No
+    7  COR_COPAIS      Carácter                2                             No
+    8  COR_PAIS        Carácter               35                             No
+    9  COR_COSUPE      Numérico                5                             No
+   10  COR_ABA         Carácter                9                             No
+   11  COR_CTA         Carácter               20                             No
+   12  COR_CNV         Numérico                1                             No
+** Total **                                  196

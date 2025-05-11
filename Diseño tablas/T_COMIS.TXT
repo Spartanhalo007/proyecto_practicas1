@@ -1,0 +1,15 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_COMIS.DBF
+Nº registros de datos:  37      
+Última actualización:   1919/02/18
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  COM_CODIGO      Numérico                4            Asc   Machine    No
+    2  COM_NOMBR       Carácter               35                             No
+    3  COM_PORCE       Numérico                9      6                      No
+    4  COM_MINIMA      Numérico               12      2                      No
+    5  COM_FIJA        Numérico               12      2                      No
+    6  COM_MENSA       Numérico               12      2                      No
+    7  COM_GTOS        Numérico               12      2                      No
+    8  COM_PORIVA      Numérico                9      6                      No
+** Total **                                  106

@@ -1,0 +1,12 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_NEGOCI.DBF
+Nº registros de datos:  4       
+Última actualización:   1916/05/20
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  NG_NIT          Numérico               12                             No
+    2  NG_NOMBRE       Carácter               30                             No
+    3  NG_CODIGO       Carácter                8                             No
+    4  NG_CONSE        Numérico                2                             No
+    5  NG_MTOMIN       Numérico               16      2                      No
+** Total **                                   69
