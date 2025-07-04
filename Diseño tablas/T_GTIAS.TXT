@@ -1,9 +1,0 @@
-
-Estructura de la tabla: C:\APLICA\IBW\DATO\T_GTIAS.DBF
-Nº registros de datos:  28      
-Última actualización:   1915/09/10
-Página de códigos:      1252    
-Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
-    1  GTIA_CODIG      Numérico                3                             No
-    2  GTIA_NOMBR      Carácter               25                             No
-** Total **                                   29

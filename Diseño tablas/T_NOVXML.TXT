@@ -1,9 +1,0 @@
-
-Estructura de la tabla: C:\APLICA\IBW\DATO\T_NOVXML.DBF
-Nº registros de datos:  8       
-Última actualización:   1923/09/21
-Página de códigos:      1252    
-Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
-    1  NX_CARACTE      Carácter                1                             No
-    2  NX_VALIDO       Carácter               10                             No
-** Total **                                   12

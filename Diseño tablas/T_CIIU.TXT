@@ -1,9 +1,0 @@
-
-Estructura de la tabla: C:\APLICA\IBW\DATO\T_CIIU.DBF
-Nº registros de datos:  961     
-Última actualización:   1923/07/19
-Página de códigos:      1252    
-Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
-    1  CII_CODIGO      Numérico                4            Asc   Machine    No
-    2  CII_NOMBRE      Carácter              140                             No
-** Total **                                  145

@@ -1,9 +1,0 @@
-
-Estructura de la tabla: C:\APLICA\IBW\DATO\T_TPORBE.DBF
-Nº registros de datos:  11      
-Última actualización:   1919/09/30
-Página de códigos:      1252    
-Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
-    1  TP_CODIGO       Numérico                2                             No
-    2  TP_NOMBRE       Carácter               50                             No
-** Total **                                   53

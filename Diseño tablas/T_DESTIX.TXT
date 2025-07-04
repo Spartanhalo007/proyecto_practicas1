@@ -1,9 +1,0 @@
-
-Estructura de la tabla: C:\APLICA\IBW\DATO\T_DESTIX.DBF
-Nº registros de datos:  17      
-Última actualización:   1923/03/31
-Página de códigos:      1252    
-Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
-    1  INV_CODIGO      Carácter                4            Asc   Machine    No
-    2  INV_NOMBRE      Carácter               60                             No
-** Total **                                   65

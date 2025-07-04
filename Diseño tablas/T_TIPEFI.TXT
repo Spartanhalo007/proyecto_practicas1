@@ -1,9 +1,0 @@
-
-Estructura de la tabla: C:\APLICA\IBW\DATO\T_TIPEFI.DBF
-Nº registros de datos:  14      
-Última actualización:   1923/07/17
-Página de códigos:      1252    
-Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
-    1  TEF_CODIGO      Numérico                2                             No
-    2  TEF_DESCRI      Carácter               50                             No
-** Total **                                   53
