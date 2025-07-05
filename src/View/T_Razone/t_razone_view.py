@@ -9,10 +9,13 @@ from ..t_view import t_view
 
 class t_razone_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla RAZONE"
+        self.title = "Tabla Razones de NO Canalización"
         self.app   = tk.Toplevel(root)
         self.app.title("t_razone")
         self.data_display_frame = t_razone_display
+
+        self.h = 450
+        self.w = 510
 
         conexion = obtener_conexion()
         self.service = RazonEService(conexion)

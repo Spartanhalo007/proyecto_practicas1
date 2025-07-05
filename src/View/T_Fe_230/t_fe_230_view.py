@@ -10,10 +10,13 @@ from ..t_view import t_view
 class t_fe_230_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla FE_230"
+        self.title = "Tabla de Fechas - Promedio Posición - F-230"
         self.app = tk.Toplevel(root)
         self.app.title("t_fe_230")
         self.data_display_frame = t_fe_230_display
+
+        self.w = 520
+        self.h = 295
 
         conexion = obtener_conexion()
         self.service = Fe230Service(conexion)

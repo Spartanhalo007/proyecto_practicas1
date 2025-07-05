@@ -16,8 +16,8 @@ class t_cam053_view(t_view):
         self.data_display_frame = t_cam053_display
         conexion = obtener_conexion()
 
-        self.w = 590
-        self.h = 250
+        self.w = 600
+        self.h = 265
 
         self.service = Cam053Service(conexion)
 

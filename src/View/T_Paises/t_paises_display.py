@@ -32,4 +32,7 @@ class t_paises_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         super().__init__(self.frame, self.elements, self.elements_types)
+        for lbl, entry, _ in self.elements:
+            lbl.config(width=8, anchor="w")
+            entry.grid_configure(padx=0)
 

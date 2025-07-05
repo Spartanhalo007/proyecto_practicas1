@@ -8,10 +8,13 @@ from ..t_view import t_view
 
 class t_pac108_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PAC108"
+        self.title = "Tabla de parametros - Etiquetas - XML - pacs.008.001.08 - CON head: y pacs:"
         self.app = tk.Toplevel(root)
         self.app.title("t_pac108")
         self.data_display_frame = t_pac108_display
+
+        self.h = 265
+        self.w = 850
 
         conexion = obtener_conexion()
         self.service = Pac108Service(conexion)

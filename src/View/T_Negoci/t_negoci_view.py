@@ -10,10 +10,13 @@ from ..t_view import t_view
 class t_negoci_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla NEGOCI"
+        self.title = "Tabla de Negociadores del Banco"
         self.app = tk.Toplevel(root)
         self.app.title("t_negoci")
         self.data_display_frame = t_negoci_display
+        
+        self.w = 450
+        self.h = 270
 
         conexion = obtener_conexion()
         self.service = NegociService(conexion)

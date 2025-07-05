@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_ACREDE.DBF
+N� registros de datos:  6       
+�ltima actualizaci�n:   1923/08/03
+P�gina de c�digos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   �ndice   Ordenaci�nNulos
+    1  AC_CODIGO       Num�rico                2                             No
+    2  AC_NOMBRE       Car�cter              100                             No
+** Total **                                  103

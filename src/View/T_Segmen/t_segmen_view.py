@@ -10,12 +10,12 @@ from ..t_view import t_view
 class t_segmen_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla SEGMEN"
+        self.title = "Tabla de Segmentos"
         self.app = tk.Toplevel(root)
         self.app.title("t_segmen")
 
-        self.w = 430
-        self.h = 170
+        self.w = 420
+        self.h = 160
         
         self.data_display_frame = t_segmen_display
 

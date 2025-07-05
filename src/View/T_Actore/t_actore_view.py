@@ -7,13 +7,15 @@ from View.T_Actore.t_actore_display import t_actore_display
 from ..Components.crud_display import crud_display
 from ..t_view import t_view
 
-class t_actore_view(t_scrollable_view):
+class t_actore_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla Actore"
+        self.title = "Tabla de Actores"
         self.app = tk.Toplevel(root)
         self.app.title("t_actore")
         self.data_display_frame = t_actore_display
+
+        self.h = 820
 
         conexion = obtener_conexion()
         self.service = ActoreService(conexion)

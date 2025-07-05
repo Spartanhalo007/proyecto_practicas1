@@ -1,0 +1,16 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_CORSWI.DBF
+Nº registros de datos:  90138   
+Última actualización:   1921/05/11
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  BIC_CODSWI      Carácter                8                             No
+    2  BIC_SUCSWI      Carácter                3            Asc   SPANISH    No
+    3  BIC_NOM01       Carácter               35                             No
+    4  BIC_DIR01       Carácter               35                             No
+    5  BIC_CIUDAD      Carácter               35                             No
+    6  BIC_COPAIS      Carácter                3                             No
+    7  BIC_NOPAIS      Carácter               35                             No
+    8  BIC_ABBA        Carácter                9                             No
+    9  BIC_DOBLE       Carácter                1                             No
+** Total **                                  165

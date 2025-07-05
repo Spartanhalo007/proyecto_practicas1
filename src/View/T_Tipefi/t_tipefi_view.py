@@ -10,12 +10,12 @@ from ..t_view import t_view
 class t_tipefi_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla T_TIPEFI"
+        self.title = "Tabla de Tipos de Entidad Financiera"
         self.app = tk.Toplevel(root)
         self.app.title("t_tipefi")
 
-        self.w = 430
-        self.h = 170
+        self.w = 500
+        self.h = 165
         
         self.data_display_frame = t_tipefi_display
 

@@ -10,10 +10,13 @@ from ..t_view import t_view
 class t_interm_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla INTERM"
+        self.title = "Tabla de Intermediarios Financieros"
         self.app = tk.Toplevel(root)
         self.app.title("t_interm")
         self.data_display_frame = t_interm_display
+
+        self.w = 680
+        self.h = 290
 
         conexion = obtener_conexion()
         self.service = IntermService(conexion)

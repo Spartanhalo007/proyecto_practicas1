@@ -10,10 +10,13 @@ from ..t_view import t_view
 class t_lineas_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla LINEAS"
+        self.title = "Tabla de Productos"
         self.app = tk.Toplevel(root)
         self.app.title("t_lineas")
         self.data_display_frame = t_lineas_display
+
+        self.h = 220
+        self.w = 500
 
         conexion = obtener_conexion()
         self.service = LineasService(conexion)

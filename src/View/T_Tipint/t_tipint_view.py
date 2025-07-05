@@ -10,12 +10,12 @@ from ..t_view import t_view
 class t_tipint_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla T_TIPINT"
+        self.title = "Tabla de Intermediario"
         self.app = tk.Toplevel(root)
         self.app.title("t_tipint")
 
-        self.w = 430
-        self.h = 170
+        self.w = 440
+        self.h = 165
         
         self.data_display_frame = t_tipint_display
 

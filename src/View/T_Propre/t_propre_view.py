@@ -9,12 +9,12 @@ from ..t_view import t_view
 
 class t_propre_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PROPRE"
+        self.title = "Tabla del Prestamo"
         self.app   = tk.Toplevel(root)
         self.app.title("t_propre")
 
-        self.w = 430
-        self.h = 170
+        self.w = 465
+        self.h = 160
         
         self.data_display_frame = t_propre_display
 

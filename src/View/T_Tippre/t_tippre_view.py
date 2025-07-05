@@ -10,12 +10,12 @@ from ..t_view import t_view
 class t_tippre_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla T_TIPPRE"
+        self.title = "Tabla de Prestamo"
         self.app = tk.Toplevel(root)
         self.app.title("t_tippre")
 
-        self.w = 430
-        self.h = 170
+        self.w = 460
+        self.h = 165
 
         self.data_display_frame = t_tippre_display
 

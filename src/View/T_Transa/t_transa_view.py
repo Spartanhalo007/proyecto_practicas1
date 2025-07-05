@@ -10,15 +10,19 @@ from ..t_view import t_view
 class t_transa_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla T_TRANSA"
+        self.title = "Tabla de Transacciones"
         self.app = tk.Toplevel(root)
         self.app.title("t_transa")
-        self.data_display_frame = t_transa_display
+        self.app.configure(bg="#135547")
+        self.data_display_frame = lambda parent: t_transa_display(parent, bg="#135547")
+
+        self.h = 190
+        self.w = 460
 
         conexion = obtener_conexion()
         self.service = TransaService(conexion)
 
-        super().__init__()
+        super().__init__(bg="#135547")
 
         def guardar(vals):
             payload = {

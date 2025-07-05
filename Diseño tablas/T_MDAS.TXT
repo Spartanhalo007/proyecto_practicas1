@@ -1,0 +1,13 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_MDAS.DBF
+Nº registros de datos:  33      
+Última actualización:   1924/02/12
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  MDAS_COD        Numérico                2                             No
+    2  MDAS_SWIFT      Carácter                3                             No
+    3  MDAS_NOMB       Carácter               25                             No
+    4  MDAS_TACOM      Numérico               14      6                      No
+    5  MDAS_TAVEN      Numérico               14      6                      No
+    6  MDAS_FECHA      Fecha                   8                             No
+** Total **                                   67

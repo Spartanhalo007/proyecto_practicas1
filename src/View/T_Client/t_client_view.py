@@ -6,14 +6,18 @@ from Service.client_service import ClientService
 from View.T_Client.t_client_display import t_client_display
 from ..Components.crud_display import crud_display
 from ..t_scrollable_view import t_scrollable_view
+from ..t_view import t_view
 
-class t_client_view(t_scrollable_view):
+class t_client_view(t_view):
 
     def __init__(self, root):
         self.title = "Tabla de Clientes"
         self.app = tk.Toplevel(root)
         self.app.title("t_client")
         self.data_display_frame = t_client_display
+
+        self.h = 918
+        self.w = 1150
 
         conexion = obtener_conexion()
         self.service = ClientService(conexion)

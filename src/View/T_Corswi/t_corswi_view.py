@@ -15,6 +15,9 @@ class t_corswi_view(t_view):
         self.app.title("t_corswi")
         self.data_display_frame = t_corswi_display
 
+        self.w = 500
+        self.h = 350
+
         conexion = obtener_conexion()
         self.service = CorswiService(conexion)
 

@@ -1,0 +1,13 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_CAM053.DBF
+Nº registros de datos:  48      
+Última actualización:   1924/08/31
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  PC8_CONSE       Numérico                7                             No
+    2  PC8_NIVEL       Numérico                2                             No
+    3  PC8_ETIQUE      Carácter              145                             No
+    4  PC8_LLAVE       Carácter              145                             No
+    5  PC8_ETICOR      Carácter               30                             No
+    6  PC8_VARIA       Carácter               10                             No
+** Total **                                  340

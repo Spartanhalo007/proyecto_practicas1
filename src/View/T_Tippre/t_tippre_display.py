@@ -28,3 +28,6 @@ class t_tippre_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         super().__init__(self.frame, self.elements, self.elements_types)
+        for lbl, entry, _ in self.elements:
+            lbl.config(width=13, anchor="w")
+            entry.grid_configure(padx=0)

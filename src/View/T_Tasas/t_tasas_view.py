@@ -10,15 +10,19 @@ from ..t_view import t_view
 class t_tasas_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla T_TASAS"
+        self.title = "Tasas de Interes"
         self.app = tk.Toplevel(root)
         self.app.title("t_tasas")
-        self.data_display_frame = t_tasas_display
+        self.app.configure(bg="#135547")
+        self.data_display_frame = lambda parent: t_tasas_display(parent, bg="#135547")
+
+        self.h = 185
+        self.w = 480
 
         conexion = obtener_conexion()
         self.service = TasasService(conexion)
 
-        super().__init__()
+        super().__init__(bg="#135547")
 
         def guardar(vals):
             payload = {

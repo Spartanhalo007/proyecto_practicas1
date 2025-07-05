@@ -57,13 +57,13 @@ class t_provee_display(t_display):
         v_fecha_cmd  = self.frame.register(v_fecha)
 
         # 1. PR_TP
-        lbl = tk.Label(self.frame, text="Tipo:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Tipo Docum Cod:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=2, validate="key", validatecommand=(v_tp_cmd, '%P'),
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("num")
 
         # 2. PR_TPNOM
-        lbl = tk.Label(self.frame, text="Tipo Nom:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Tipo Docum:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=50, validate="key", validatecommand=(v_tpn_cmd, '%P'),
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
@@ -105,7 +105,7 @@ class t_provee_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         # 9. PR_PAIS
-        lbl = tk.Label(self.frame, text="País:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Cod País:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=2, validate="key", validatecommand=(v_pais_cmd, '%P'),
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
@@ -117,7 +117,7 @@ class t_provee_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         # 11. PR_FECHA
-        lbl = tk.Label(self.frame, text="Fecha (YYYYMMDD):", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Fecha:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=8, validate="key", validatecommand=(v_fecha_cmd, '%P'),
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")

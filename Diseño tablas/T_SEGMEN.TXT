@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_SEGMEN.DBF
+Nº registros de datos:  5       
+Última actualización:   1917/07/06
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  SEGMEN_COD      Numérico                3                             No
+    2  SEGMEN_NOM      Carácter               30                             No
+** Total **                                   34

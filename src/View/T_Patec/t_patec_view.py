@@ -9,10 +9,13 @@ from ..t_view import t_view
 
 class t_patec_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PATEC"
+        self.title = "Tabla de Patrimonio Tecnico"
         self.app   = tk.Toplevel(root)
         self.app.title("t_patec")
         self.data_display_frame = t_patec_display
+
+        self.w = 410
+        self.h = 185
 
         conexion = obtener_conexion()
         self.service = PatecService(conexion)

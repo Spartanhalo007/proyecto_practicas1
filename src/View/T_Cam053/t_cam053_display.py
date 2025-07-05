@@ -30,13 +30,13 @@ class t_cam053_display(t_display):
 
         # 3. PC8_ETIQUE (texto 145)
         lbl3 = tk.Label(self.frame, text="Etiqueta:", font=("Arial",8,"bold"), bg="#c0c0c0")
-        entry3 = tk.Entry(self.frame, width=60, bd=0, bg="white")  # ancho visual
+        entry3 = tk.Entry(self.frame, width=65, bd=0, bg="white")  # ancho visual
         self.elements.append([lbl3, entry3])
         self.elements_types.append("str")
 
         # 4. PC8_LLAVE (texto 145)
         lbl4 = tk.Label(self.frame, text="Llave:", font=("Arial",8,"bold"), bg="#c0c0c0")
-        entry4 = tk.Entry(self.frame, width=60, bd=0, bg="white")
+        entry4 = tk.Entry(self.frame, width=65, bd=0, bg="white")
         self.elements.append([lbl4, entry4])
         self.elements_types.append("str")
 

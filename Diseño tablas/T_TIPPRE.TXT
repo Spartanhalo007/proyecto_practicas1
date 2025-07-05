@@ -1,0 +1,9 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_TIPPRE.DBF
+Nº registros de datos:  5       
+Última actualización:   1923/07/06
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  TIPPRE_COD      Numérico                2            Asc   SPANISH    No
+    2  TIPPRE_NOM      Carácter               40                             No
+** Total **                                   43

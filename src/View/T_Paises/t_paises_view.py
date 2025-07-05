@@ -9,12 +9,12 @@ from ..t_view import t_view
 
 class t_paises_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PAISES"
+        self.title = "Tabla de Paises"
         self.app = tk.Toplevel(root)
         self.app.title("t_paises")
 
         self.w = 430
-        self.h = 170
+        self.h = 160
         
         self.data_display_frame = t_paises_display
 

@@ -11,12 +11,12 @@ class t_acrede_view(t_view):
 
     def __init__(self, root):
         # Configuración básica de la ventana
-        self.title = "Tabla Acrede"
+        self.title = "Tabla de Tercero Ordenante / Benficiario"
         self.app = tk.Toplevel(root)
         self.app.title("t_acrede")
 
         self.w = 430
-        self.h = 170
+        self.h = 165
         
         self.data_display_frame = t_acrede_display
 

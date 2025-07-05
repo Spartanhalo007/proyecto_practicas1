@@ -9,10 +9,12 @@ from ..t_view import t_view
 
 class t_provee_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PROVEE"
+        self.title = "Tabla Tabla de Proveedores por Contratos de Cobertura"
         self.app   = tk.Toplevel(root)
         self.app.title("t_provee")
         self.data_display_frame = t_provee_display
+
+        self.w = 600
 
         conexion = obtener_conexion()
         self.service = ProveeService(conexion)

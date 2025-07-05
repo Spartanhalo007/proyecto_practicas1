@@ -10,10 +10,13 @@ from ..t_view import t_view
 class t_sucur_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla SUCUR"
+        self.title = "Tabla de Oficinas"
         self.app = tk.Toplevel(root)
         self.app.title("t_sucur")
         self.data_display_frame = t_sucur_display
+
+        self.w = 450
+        self.h = 420
 
         conexion = obtener_conexion()
         self.service = SucurService(conexion)

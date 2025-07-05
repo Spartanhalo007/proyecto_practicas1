@@ -10,7 +10,7 @@ from ..t_view import t_view
 class t_novxml_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla NOVXML"
+        self.title = "Tabla de Caracteres NO validos en XML"
         self.app = tk.Toplevel(root)
         self.app.title("t_novxml")
 

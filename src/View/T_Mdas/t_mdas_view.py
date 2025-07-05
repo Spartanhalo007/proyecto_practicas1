@@ -10,10 +10,13 @@ from ..t_view import t_view
 class t_mdas_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla MDAS"
+        self.title = "Tabla de Monedas"
         self.app = tk.Toplevel(root)
         self.app.title("t_mdas")
         self.data_display_frame = t_mdas_display
+
+        self.w = 430
+        self.h = 270
 
         conexion = obtener_conexion()
         self.service = MdasService(conexion)

@@ -17,12 +17,12 @@ class t_fe_230_display(t_display):
         vnum  = self.frame.register(lambda P: P == "" or (P.isdigit() and len(P) <= 1))
 
         # 1. FE_DIA_PRO
-        lbl = tk.Label(self.frame, text="Día Programado:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Fecha del promedio:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=10, validate="key", validatecommand=(vdate, '%P'), bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         # 2. FE_DIA_01
-        lbl = tk.Label(self.frame, text="Día 01:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Día 01 del promedio:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=10, validate="key", validatecommand=(vdate, '%P'), bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
@@ -32,7 +32,7 @@ class t_fe_230_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("num")
 
         # 4. FE_DIA_02
-        lbl = tk.Label(self.frame, text="Día 02:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Día 02 del promedio:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=10, validate="key", validatecommand=(vdate, '%P'), bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
@@ -42,7 +42,7 @@ class t_fe_230_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("num")
 
         # 6. FE_DIA_03
-        lbl = tk.Label(self.frame, text="Día 03:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        lbl = tk.Label(self.frame, text="Día 03 del promedio:", font=("Arial",8,"bold"), bg="#c0c0c0")
         ent = tk.Entry(self.frame, width=10, validate="key", validatecommand=(vdate, '%P'), bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 

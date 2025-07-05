@@ -1,0 +1,10 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_TASAS.DBF
+Nº registros de datos:  12      
+Última actualización:   1923/08/03
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  TASA_COD        Numérico                2                             No
+    2  TASA_NOMBR      Carácter               35                             No
+    3  TASA_COTIZ      Numérico                9      6                      No
+** Total **                                   47

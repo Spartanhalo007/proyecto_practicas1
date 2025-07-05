@@ -37,12 +37,12 @@ class t_pac108_display(t_display):
 
         # PC8_ETIQUE
         lbl = tk.Label(self.frame, text="Etiqueta:", font=("Arial",8,"bold"), bg="#c0c0c0")
-        ent = tk.Entry(self.frame, width=50, validate="key", validatecommand=(vetiq, '%P'), bd=0, bg="white")
+        ent = tk.Entry(self.frame, width=110, validate="key", validatecommand=(vetiq, '%P'), bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         # PC8_LLAVE
         lbl = tk.Label(self.frame, text="Llave:", font=("Arial",8,"bold"), bg="#c0c0c0")
-        ent = tk.Entry(self.frame, width=50, validate="key", validatecommand=(vllav, '%P'), bd=0, bg="white")
+        ent = tk.Entry(self.frame, width=110, validate="key", validatecommand=(vllav, '%P'), bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         # PC8_ETICOR
@@ -56,3 +56,7 @@ class t_pac108_display(t_display):
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
         super().__init__(self.frame, self.elements, self.elements_types)
+
+        for lbl, entry, _ in self.elements:
+            lbl.config(width=12, anchor="w")
+            entry.grid_configure(padx=0)

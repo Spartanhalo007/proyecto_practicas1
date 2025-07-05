@@ -9,10 +9,13 @@ from ..t_view import t_view
 
 class t_procre_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PROCRE"
+        self.title = "Tabla de Proposito del Credito por Tipo"
         self.app   = tk.Toplevel(root)
         self.app.title("t_procre")
         self.data_display_frame = t_procre_display
+
+        self.h = 190
+        self.w = 510
 
         conexion = obtener_conexion()
         self.service = ProcreService(conexion)

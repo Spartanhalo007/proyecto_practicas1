@@ -1,0 +1,42 @@
+
+Estructura de la tabla: C:\APLICA\IBW\DATO\T_NUMEX.DBF
+Nº registros de datos:  205     
+Última actualización:   1924/09/11
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulos
+    1  NUM_CODIGO      Numérico                4                             No
+    2  NUM_CONCEP      Carácter               80                             No
+    3  NUM_INEGRE      Numérico                1                             No
+    4  NUM_FORM1       Numérico                1                             No
+    5  NUM_FORM2       Numérico                1                             No
+    6  NUM_FORM3       Numérico                1                             No
+    7  NUM_DESX01      Carácter                4                             No
+    8  NUM_DESX02      Carácter                4                             No
+    9  NUM_DESX03      Carácter                4                             No
+   10  NUM_DESX04      Carácter                4                             No
+   11  NUM_DESX05      Carácter                4                             No
+   12  NUM_DESX06      Carácter                4                             No
+   13  NUM_DESX07      Carácter                4                             No
+   14  NUM_DESX08      Carácter                4                             No
+   15  NUM_DESX09      Carácter                4                             No
+   16  NUM_DESX10      Carácter                4                             No
+   17  NUM_DESX11      Carácter                4                             No
+   18  NUM_DESX12      Carácter                4                             No
+   19  NUM_DESX13      Carácter                4                             No
+   20  NUM_DESX14      Carácter                4                             No
+   21  NUM_DESX15      Carácter                4                             No
+   22  NUM_DESX16      Carácter                4                             No
+   23  NUM_DESX17      Carácter                4                             No
+   24  NUM_TIPOIN      Carácter                4                             No
+   25  NUM_ACCION      Carácter                1                             No
+   26  NUM_RECE01      Carácter                2                             No
+   27  NUM_RECE02      Carácter                2                             No
+   28  NUM_INVE01      Carácter                2                             No
+   29  NUM_INVE02      Carácter                2                             No
+   30  NUM_INVE03      Carácter                2                             No
+   31  NUM_INVE04      Carácter                2                             No
+   32  NUM_INVE05      Carácter                2                             No
+   33  NUM_INVE06      Carácter                2                             No
+   34  NUM_INVE07      Carácter                2                             No
+   35  NUM_DIAN        Numérico                1                             No
+** Total **                                  181

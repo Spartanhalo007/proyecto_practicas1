@@ -10,7 +10,7 @@ from ..t_view import t_view
 class t_gtias_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla GTIAS"
+        self.title = "Tabla de Garantias"
         self.app = tk.Toplevel(root)
         self.app.title("t_gtias")
 

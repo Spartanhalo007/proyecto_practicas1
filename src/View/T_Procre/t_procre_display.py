@@ -29,15 +29,15 @@ class t_procre_display(t_display):
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("num")
 
-        # 2. PC_NOMBRE (200 caracteres)
-        lbl = tk.Label(self.frame, text="Nombre:",   font=("Arial",8,"bold"), bg="#c0c0c0")
-        ent = tk.Entry(self.frame, width=50, validate="key", validatecommand=(vname, '%P'),
+        # 3. PC_TIPOCRE (1 carácter)
+        lbl = tk.Label(self.frame, text="Tipo:", font=("Arial",8,"bold"), bg="#c0c0c0")
+        ent = tk.Entry(self.frame, width=1,  validate="key", validatecommand=(vtype, '%P'),
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 
-        # 3. PC_TIPOCRE (1 carácter)
-        lbl = tk.Label(self.frame, text="Tipo Cre:", font=("Arial",8,"bold"), bg="#c0c0c0")
-        ent = tk.Entry(self.frame, width=1,  validate="key", validatecommand=(vtype, '%P'),
+        # 2. PC_NOMBRE (200 caracteres)
+        lbl = tk.Label(self.frame, text="Descipción:",   font=("Arial",8,"bold"), bg="#c0c0c0")
+        ent = tk.Entry(self.frame, width=50, validate="key", validatecommand=(vname, '%P'),
                        bd=0, bg="white")
         self.elements.append([lbl, ent]); self.elements_types.append("str")
 

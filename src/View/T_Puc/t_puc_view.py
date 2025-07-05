@@ -9,7 +9,7 @@ from ..t_view import t_view
 
 class t_puc_view(t_view):
     def __init__(self, root):
-        self.title = "Tabla PUC"
+        self.title = "Tabla de parametros PUC"
         self.app   = tk.Toplevel(root)
         self.app.title("t_puc")
         self.data_display_frame = t_puc_display

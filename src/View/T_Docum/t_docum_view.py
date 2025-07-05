@@ -10,15 +10,19 @@ from ..t_view import t_view
 class t_docum_view(t_view):
 
     def __init__(self, root):
-        self.title = "Tabla DOCUM"
+        self.title = "Tabla de Textos"
         self.app = tk.Toplevel(root)
         self.app.title("t_docum")
-        self.data_display_frame = t_docum_display
+        self.app.configure(bg="#135547")
+        self.data_display_frame = lambda parent: t_docum_display(parent, bg="#135547")
+
+        self.h = 245
+        self.w = 590
 
         conexion = obtener_conexion()
         self.service = DocumService(conexion)
 
-        super().__init__()
+        super().__init__(bg="#135547")
 
         def guardar(vals):
             payload = {
